@@ -1,0 +1,99 @@
+/*Selector Universal*/
+
+*{
+    margin: 0;
+} 
+
+/*Selector Etiquetas e Hijos*/
+
+ul {
+    background-color: #7C8DA5;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    margin: 0px;
+    padding: 4vh 0vw;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+    background-color: #475B74;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(13, 13, 13);
+    text-decoration: none;
+    padding: 4vh 2vw;
+}
+
+h2 {
+    padding: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5a8d6f;
+}
+
+input {
+    border: 3px solid #478b74;
+    border-radius: 7px;
+    padding: 1vh 1vw;
+
+}
+
+/*Selectores de ID*/
+
+
+
+
+/*Selectores de Clases*/
+
+.div1 {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+
+.div2 {
+    background-color: #999de8;
+    margin: 3vh 32vw;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7d456c;
+    text-align: center;
+}
+
+.boton {
+    
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+    padding: 1vh 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: medium;
+    background-color: #233f66;
+    border: 2px solid #576fa6;
+    border-radius: 5px;
+    
+}
+
+.boton:hover {
+        background-color: #475B74;
+}
+
+/*Selectores Anidados*/
+
+.div2 table td{
+    text-align: left;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.div2 label{
+    margin: 0vh 2.5vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1D2538;
+}
